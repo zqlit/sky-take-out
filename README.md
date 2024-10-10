@@ -41,6 +41,10 @@ mvn spring-boot:run
 ### 分页查询示例 (Pagination Example)
 ```java
 PageHelper.startPage(当前第几页，每多少条数据分一页);
+
+ * 对象映射器:基于jackson将Java对象转为json，或者将json转为Java对象
+ * 将JSON解析为Java对象的过程称为 [从JSON反序列化Java对象]
+ * 从Java对象生成JSON的过程称为 [序列化Java对象到JSON]
 ```
 
 ## 贡献 (Contributing)
