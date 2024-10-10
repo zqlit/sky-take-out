@@ -71,6 +71,10 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
 
+    /**
+     * 设置时间格式转换
+     * @param converters
+     */
     @Override
     protected void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
         //创建一个消息转换器对象
